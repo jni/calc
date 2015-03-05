@@ -7,5 +7,6 @@ calc <- function(vec, op){
       num = num*vec[i]
     }
   }
+  if(op == "minimum"){ num = min(vec, na.rm = T)}
   return(num)
 }
