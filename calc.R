@@ -8,5 +8,8 @@ calc <- function(vec, op){
     }
   }
   if(op == "minimum"){ num = min(vec, na.rm = T)}
+  print("Invalid input:")
+  print(vec)
+  print(paste("Operation:", op))
   return(num)
 }
