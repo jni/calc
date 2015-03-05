@@ -7,5 +7,8 @@ calc <- function(vec, op){
       num = num*vec[i]
     }
   }
+  print("Invalid input:")
+  print(vec)
+  print(paste("Operation:", op))
   return(num)
 }
